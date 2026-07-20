@@ -12,25 +12,31 @@
 
 #Example 3
 
-a=b=c=100
-print(a,b,c)
+# a=b=c=100
+# print(a,b,c)
 
 #Example 4
 
-x=1
-y=2
-print(x,y)
-y,x=x,y #(interchanging values between variables)
-print(x,y)
+# x=1
+# y=2
+# print(x,y)
+# y,x=x,y #(interchanging values between variables)
+# print(x,y)
 
 #Example 5
-a =100
-b=200
+# a =100
+# b=200
+#
+# print (a)
+# print(b)
+# del a
+#
+# print(a,b)
 
-print (a)
-print(b)
-del a
+name = "Akshaay"
+age = 28
 
-print(a,b)
+print(f"My name is: {name}", f"My age is {age}")
+
 
 
