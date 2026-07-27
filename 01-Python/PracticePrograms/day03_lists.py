@@ -137,3 +137,12 @@ listf=["a", "b", "c"]
 listg=[1, 2, 3]
 listf.extend(listg)
 print(listf)
+
+# Example 11 list are equal or not
+list50 = ["apple", "banana", "cherry", "oranage", "kiwi", "melon", "mango"]
+list51 = [1,2,3,4,5]
+
+if list50 == list51:
+    print("Yes")
+else:
+    print("No")
