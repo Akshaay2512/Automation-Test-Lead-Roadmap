@@ -22,3 +22,7 @@ for m in range(10,0,-1):
 # increment by 5
 for l in range(5,51,5):
     print(l)
+
+# Order processing    
+for order in range(1, 11):
+    print(f"Processing Order {order}")

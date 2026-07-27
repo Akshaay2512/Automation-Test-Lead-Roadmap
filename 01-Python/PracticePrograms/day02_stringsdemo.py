@@ -40,6 +40,7 @@ print(str2[2:])
 
 print(str2[1:-1])
 print(str2[1:-2])
+print(str2[1:-2])
 
 print("=" * 30)
 
@@ -85,5 +86,65 @@ s = "Welcome to Python"
 print(s.isalnum())
 print("welcome".isalpha())
 print("1234".isdigit())
+print("First numner".isidentifier())
+print(s.islower())
+print("WELCOME".isupper())
+print("WelCome".isupper())
+print("Welcome Python".isspace())
+
+#Example 10: testing strings - Searching for substrings
+
+y="Welcome to India"
+
+check = y.endswith("dia")
+print(check)
+
+if check == True:
+    print("OMG I DID!!!")
+
+if y.startswith("Wel"):
+    print("Again I DID!!")
+else:
+    print("Better luck")
+
+if y.find("zzz") != -1:
+    print("Boss mode")
+else:
+    print("Not a boss")
+
+print(y.count("a"))
+
+print(len("Welcome"))
+
+#Example 11: converting string
+
+z= ("string in Python")
+
+z1=print(z.capitalize())
+z2=print(z.title())
+z3=print(z.lower())
+z4=print(z.upper())
+z5=print(z.swapcase())
+z6=print(z.replace("in","on"))
+
+#Example 12: Reverse string (interview question)
+
+#Method 1 looping
+
+m="Akshaay Kiran"
+n=""
+
+for i in m:
+    n=i+n
+
+print("Reverse value is:", n)
+
+#Method 2 using slicing operator
+k="Akshaay Kiran"
+l=k[::-1]
+print(l)
+
+
+
 
 
