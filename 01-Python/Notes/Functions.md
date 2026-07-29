@@ -17,5 +17,12 @@ Global and local variables:
 1. Variables created outside of function are called as global variables
 2. Variables created inside the functions called as local variables
 
+## Arguments/Parameters Types:
+
+1. Positional Arguments/Parameters
+    Based on position arguments are assigned
+
+2. Keyword Arguments/Parameters
+
 
 

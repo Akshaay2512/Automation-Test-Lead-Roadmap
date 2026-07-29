@@ -1,5 +1,5 @@
 #Example 1:
-global_var = 20  #global varibale
+global_var = 20  #global variable
 
 def func1():
     local_var=10  # local variable
@@ -22,7 +22,7 @@ def func2():
 func2() #if variable names are same when calling it will first call only the variable inside the function
 print("==" * 20)
 
-# Example 3: global and local variable with same name
+# Example 3: global and local variable with same name so change the global variable value
 
 xy =100
 
@@ -33,5 +33,29 @@ def func3():
 
 func3()
 print(xy)
+
+# Example 4:
+
+x = 100
+
+def func4():
+    global x
+    x = 500
+    print(x)
+
+func4() #500 without calling this func only x=100 will be displayed
+print(x) #500 even when printed outside function
+
+# Example 5: creation of global variable inside the function
+
+def func5():
+    global xz
+    xz = 100
+    print(x)
+
+func5()
+print(xz) # since it is local variable we can access even if it is inside function
+
+
 
 
