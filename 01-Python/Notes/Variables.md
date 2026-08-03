@@ -44,9 +44,25 @@ x = "Python"
 5. Boolean type: bool (True/False)
 
 ## Variables 
-Name = AK ----> 'Name' is varibale which store value 'AK'
+Name = AK ----> 'Name' is variable which store value 'AK'
 1. A variable is nothing but a reserved memory location to store values
 2. Variables are used to store the data
 3. Memory allocated when the values are stored in variables
 4. Every variable must have some type
 5. Python is dynamically typed programming language
+
+Q1. What are global variables?
+
+Answer: Variables declared outside a class or function and accessible throughout the program.
+
+Q2. What are class variables?
+
+Answer: Variables declared inside a class but outside methods, shared by all objects of the class.
+
+Q3. What are local variables?
+
+Answer: Variables declared inside a function or method that are accessible only within that function.
+
+Q4. Why do we use self.a instead of a?
+
+Answer: self refers to the current object, allowing access to its class or instance variables.

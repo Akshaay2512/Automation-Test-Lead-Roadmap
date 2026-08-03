@@ -56,6 +56,19 @@ def func5():
 func5()
 print(xz) # since it is local variable we can access even if it is inside function
 
+# Example 6: Class variables
+
+class myclass():
+    a,b = 10,20 #class variables
+    def add(self):
+        print(self.a+self.b)
+    def mul(self):
+        print(self.a * self.b)
+
+mc = myclass()
+mc.add()
+mc.mul()
+
 
 
 

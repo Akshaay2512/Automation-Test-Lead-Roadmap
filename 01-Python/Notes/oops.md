@@ -25,3 +25,19 @@ Occupy certain amount if space in memory
 
 Function ---> We can create without class
 Method   ---> creates inside the class
+
+## 2 types of method within the class
+1. instance method (we can call only through object)
+2. static method (we can directly call using class) >>>> @staticmethod
+
+## Method and constructor
+
+Method: we can give any name
+        method return value
+        method can take arg/parameters
+        we have to use an obj to invoke the method
+
+Constructor: Name is fixed: __init__(self):
+                constructor will not return any value
+                constructor also take arg/parameters
+                constructor will be called at the time of obj creation itself
