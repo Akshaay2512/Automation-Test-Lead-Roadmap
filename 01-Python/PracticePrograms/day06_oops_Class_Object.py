@@ -31,7 +31,7 @@ emp.empid(1234)
 class myclass1:
     def m1(self):
         print("This is instance...")
-    @staticmethod
+    @staticmethod #common method >>> directly by using class we can call the method
     def m2(self,num):
         print(num)
 

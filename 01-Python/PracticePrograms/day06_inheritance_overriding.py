@@ -118,5 +118,99 @@ kid.m333()
 
 print("==" * 20, "same method name(Overriding) ", "==" * 20)
 
-#Example 5: Multiple inheritance
+#Example 6: overriding methods
+
+class parent():
+    def m1(self,a,b):
+        return a+b
+
+class child(parent):
+    def m1(self):
+        print("This is child")
+        print(super().m1(2,2))  # to call parent method
+
+res = child()
+res.m1()
+
+print("==" * 20, "same method name(Overriding) ", "==" * 20)
+
+#Example 7:
+
+class AA:
+    a,b = 10,20
+
+class BB(AA):
+    i,j= 100,200
+    def m1(self,x,y):
+        print(x + y)    # local variables
+        print(self.i + self.j) # class variables
+        print(self.a + self.b) # class variables
+
+objb = BB()
+objb.m1(50,20)
+
+print("==" * 20, "same variable name(Overriding) ", "==" * 20)
+
+#Example 8: overriding variables
+
+class parent1:
+    name = "AK"
+
+class child1(parent1):
+    name = "Rat"
+    def test(self):
+        print(super().name)   # to print parent class name
+
+cobj = child1()
+print(cobj.name)
+cobj.test()
+
+print("==" * 20, "Overriding methods ", "==" * 20)
+
+#Example 9: overriding methods
+
+class bank():
+    def rateofinterest(self):
+        return 0
+
+class Xbank(bank):
+    def rateofinterest(self):
+        return 10
+
+class Ybank(bank):
+    def rateofinterest(self):
+        return 20
+
+objx = Xbank()
+print(objx.rateofinterest())
+
+objy = Ybank()
+print(objy.rateofinterest())
+
+print("==" * 20, "Overloading ", "==" * 20)
+
+#Example 10: Overloading(polymorphism) one method can have multiple form parameter can be passed or not
+
+class Human():
+    def sayhello(self,name=None):
+        if name is not None:
+            print("Hello" + name)
+        else:
+            print("Hellooo")
+
+h = Human()
+h.sayhello("Ak")
+h.sayhello()
+
+#Example 11: Overloading(polymorphism)
+
+class calc():
+    def add(self,a=0,b=0,c=0):
+        print(a+b+c)
+
+calobj = calc()
+calobj.add() # without using parameters
+calobj.add(10,20) # without using all parameters
+calobj.add(10,20,30) # with all parameters
+
 
