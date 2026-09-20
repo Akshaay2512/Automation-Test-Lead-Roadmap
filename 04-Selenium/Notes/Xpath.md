@@ -10,3 +10,14 @@ Types of xpath:
 
 1. Absolute/Full xpath
 2. Relative/partial xpath
+
+Most preferred xpath is relative xpath
+
+XPATH options:
+
+1. and
+2. or
+3. contains()
+4. starts-with()
+5. text()
+![img.png](img.png)
