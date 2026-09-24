@@ -2,19 +2,19 @@
 
 #print 1...10 numbers
 
-# i=1
-#
-# while i<=10:
-#     print(i)
-#     i=i+1
+i=1
+
+while i<=10:
+    print(i)
+    i=i+1
 
 #descending order
 
-# i=10
-#
-# while i>=1:
-#     print(i)
-#     i=i-1
+i=10
+
+while i>=1:
+    print(i)
+    i=i-1
 
 #Print numbers 5 to 50
 
@@ -41,4 +41,11 @@ k=20
 while k>=2:
     print(k)
     k=k-2
+
+
+m = 100
+
+while m>=50:
+    print(m)
+    m=m-5
 
