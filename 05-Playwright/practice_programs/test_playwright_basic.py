@@ -9,6 +9,7 @@ def test_pageurl(page:Page):
 def test_title(page:Page):
     page.goto("https://www.facebook.com")
     expect(page).to_have_title("Facebook")
+    
 
 def test_capture_url(page:Page):
     page.goto("https://www.facebook.com")
