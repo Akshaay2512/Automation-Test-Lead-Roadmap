@@ -45,3 +45,12 @@ if username.is_visible():
 to_be = state assertion
 to_have = value/property assertion
 is_ = returns Boolean.
+
+Types of dropdown:
+1. Select dropdown (single and multiple) - having 'select' tag options are embedded in 'option' tag
+2. Bootstrap dropdown - having div /button tags options are embedded inside the 'div' tags
+3. Hidden dropdown - options are hidden from DOM
+
+Inner text vs inner content:
+
+![img_5.png](img_5.png)
